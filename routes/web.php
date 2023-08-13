@@ -23,7 +23,7 @@ use App\Http\Controllers\instruction_controller;
 Route::get("show",[Question_SET_A_Controller::Class,'show']);
 
 Route::get('/', function () {
-    return view('candidate_login');
+    return view('CandidateLogin');
 });
 Route::get('/lte', function () {
     return view('admin.adminpanel');
