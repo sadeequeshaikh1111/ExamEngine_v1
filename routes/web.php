@@ -18,6 +18,7 @@ use App\Http\Controllers\instruction_controller;
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
+this is revertible push
 |
 */
 Route::get("show",[Question_SET_A_Controller::Class,'show']);
